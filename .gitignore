@@ -1,0 +1,33 @@
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos e pastas de IDEs/editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Backups e arquivos de texto de teste
+*.bak
+teste*.txt
+
+# Ambientes Node.js (caso use mais adiante)
+node_modules/
+npm-debug.log*
+
+# Arquivos PHP sensíveis (caso for rodar scripts)
+.env
+vendor/
+
+# Pastas de cache (geradas por algumas ferramentas)
+__pycache__/
+.cache/
+
+# Arquivos de modelagem ou exportação temporária
+*.pgmodel.tmp
